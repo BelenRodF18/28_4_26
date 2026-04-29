@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vista Institucional</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fcf0f5;
+            color: #5d5d5d;
+            font-family: sans-serif;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #f2d1e1;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #e2f0cb;
+            border-radius: 50%;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: #b39eb5;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .main {
+            padding: 0; 
+            margin: 0;
+        }
+
+        .seccion1{
+            display: flex;
+            gap: 20px;
+            padding: 30px; 
+        }
+
+        .caja1 {
+            width: 50%;
+            height: 400px;
+            background-color: #ffdfd3;
+            border-radius: 15px;
+            border: 2px dashed #ffb7ce;
+        }
+
+        .seccion2 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .caja2 {
+            height: 190px;
+            background-color: #d4e3ff;
+            border-radius: 15px;
+            border: 2px dashed #b7ccff;
+        }
+
+        .seccion3 {
+            display: flex;
+            gap: 20px;
+            height: 190px;
+        }
+
+        .caja3 {
+            width: 50%;
+            background-color: #f0e4ff;
+            border-radius: 15px;
+            border: 2px dashed #d1b3ff;
+        }
+
+        .caja4 {
+            width: 50%;
+            background-color: #e4fbff;
+            border-radius: 15px;
+            border: 2px dashed #b3e7ff;
+        }
+
+        .seccion-boton {
+            display: flex;
+            justify-content: center;
+            padding: 80px 0;
+            background-color: #bffff2;
+            width: 100%;
+            margin-bottom: 40px; 
+        }
+
+        .boton {
+            background-color: #ffb7ce;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .seccion4 {
+            background-color: #fff5ba;
+            padding: 40px;
+            border-top: 2px solid #f0e18d;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .caja5 {
+            width: 80px;
+            height: 80px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            border: 2px dashed #f0e18d;
+            flex-shrink: 0;
+        }
+
+        .titulo {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .texto {
+            font-size: 14px;
+            margin: 0;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo"></div>
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="institucional.html">Institucional</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="seccion1">
+            <div class="caja1"></div>
+            <div class="seccion2">
+                <div class="caja2"></div>
+                <div class="seccion3">
+                    <div class="caja3"></div>
+                    <div class="caja4"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-boton">
+            <button class="boton">BOTÓN</button>
+        </section>
+    </main>
+
+    <footer class="seccion4">
+        <div class="caja5"></div>
+        <div>
+            <p class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
